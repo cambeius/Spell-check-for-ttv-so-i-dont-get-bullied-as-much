@@ -1,10 +1,10 @@
 {
-    "name": "MultiTwitchImprovement",
-    "description": "Imrpoves MTTV",
+    "name": "SpellCheck",
+    "description": "Spell check for ttv chat so I dont get bullied",
     "version": "1.0",
     "manifest_version": 3,
     "content_scripts": [{
-        "matches": ["https://www.multitwitch.tv/*"],
+        "matches": ["https://www.twitch.tv/*"],
         "js": ["background.js"]
     }]
 }
