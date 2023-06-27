@@ -10,7 +10,7 @@ function start(){
                 try{
                     const response = await fetch("https://api.apilayer.com/spell/spellchecker?q=" + encodeURI(chat.textContent.trimEnd()),{
                     method: "GET",
-                    headers: {"apikey": "<get your own>"}
+                    headers: {"apikey": "<get your own from https://apilayer.com/marketplace/spell-api>"}
                 });
 
                 const result = await response.json();
